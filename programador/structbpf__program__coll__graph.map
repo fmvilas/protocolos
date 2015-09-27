@@ -1,0 +1,8 @@
+digraph G {
+	node [label="\N", fontname="FreeSans.ttf", fontsize=10, shape=record];
+	edge [fontname="FreeSans.ttf", fontsize=10, labelfontname="FreeSans.ttf", labelfontsize=10];
+	graph [bb="0,0,92,100"];
+	Node1 [label=bpf_program, height="0.22", width="1.08", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="39,16", rects="0,8,78,24"];
+	Node2 [label=bpf_insn, height="0.22", width="0.75", color=black, fillcolor=white, style=filled, URL="$structbpf__insn.html", tooltip="A single BPF pseudo-instruction.", pos="39,84", rects="12,76,67,92"];
+	Node2 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=bf_insns, pos="s,39,76 39,67 39,53 39,35 39,24", lp="66,50"];
+}

@@ -1,0 +1,14 @@
+digraph G {
+	node [label="\N", fontname="FreeSans.ttf", fontsize=10, shape=record];
+	edge [fontname="FreeSans.ttf", fontsize=10, labelfontname="FreeSans.ttf", labelfontsize=10];
+	graph [bb="0,0,188,136"];
+	Node1 [label="Source/TEthernet.cpp", height="0.22", width="1.58", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="92,120", rects="35,112,150,128"];
+	Node2 [label="stdio.h", height="0.22", width="0.56", color=grey75, fillcolor=white, style=filled, pos="20,68", rects="0,60,40,76"];
+	Node3 [label="TEthernet.h", height="0.22", width="0.94", color=black, fillcolor=white, style=filled, URL="$_t_ethernet_8h.html", pos="92,68", rects="58,60,126,76"];
+	Node4 [label="string.h", height="0.22", width="0.61", color=grey75, fillcolor=white, style=filled, pos="92,16", rects="70,8,115,24"];
+	Node5 [label="conio.h", height="0.22", width="0.61", color=grey75, fillcolor=white, style=filled, pos="166,68", rects="144,60,188,76"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,32,76 81,112 70,104 52,91 39,81"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,92,76 92,112 92,105 92,94 92,85"];
+	Node3 -> Node4 [color=midnightblue, style=solid, pos="e,92,24 92,60 92,53 92,42 92,33"];
+	Node1 -> Node5 [color=midnightblue, style=solid, pos="e,154,76 104,112 115,104 133,91 147,81"];
+}

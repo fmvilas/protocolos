@@ -1,0 +1,22 @@
+digraph G {
+	node [label="\N", fontname="FreeSans.ttf", fontsize=10, shape=record];
+	edge [fontname="FreeSans.ttf", fontsize=10, labelfontname="FreeSans.ttf", labelfontsize=10];
+	graph [bb="0,0,549,168"];
+	Node9 [label=Inherited, shape=box, height="0.22", width="0.75", fillcolor=grey75, style=filled, fontcolor=black, pos="256,16"];
+	Node10 [label=PublicBase, shape=box, height="0.22", width="0.86", color=black, URL="$classPublicBase.html", pos="31,84"];
+	Node11 [label=Truncated, shape=box, height="0.22", width="0.83", color=red, URL="$classTruncated.html", pos="31,152"];
+	Node13 [label=ProtectedBase, shape=box, height="0.22", width="1.08", color=black, URL="$classProtectedBase.html", pos="119,84"];
+	Node14 [label=PrivateBase, shape=box, height="0.22", width="0.92", color=black, URL="$classPrivateBase.html", pos="209,84"];
+	Node15 [label=Undocumented, shape=box, height="0.22", width="1.19", color=grey75, pos="303,84"];
+	Node16 [label="Templ< int >", shape=box, height="0.22", width="1.06", color=black, URL="$classTempl.html", pos="402,84"];
+	Node17 [label="Templ< T >", shape=box, height="0.22", width="0.97", color=black, URL="$classTempl.html", pos="402,152"];
+	Node18 [label=Used, shape=box, height="0.22", width="0.47", color=black, URL="$classUsed.html", pos="475,84"];
+	Node10 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,56,76 65,73 93,64 132,52 166,42 187,36 211,29 229,24"];
+	Node11 -> Node10 [dir=back, color=midnightblue, style=solid, pos="s,31,144 31,135 31,121 31,103 31,92"];
+	Node13 -> Node9 [dir=back, color=darkgreen, style=solid, pos="s,135,76 143,72 171,58 216,36 240,24"];
+	Node14 -> Node9 [dir=back, color=firebrick4, style=solid, pos="s,215,76 220,69 229,55 242,35 250,24"];
+	Node15 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,297,76 292,69 283,55 270,35 262,24"];
+	Node16 -> Node9 [dir=back, color=midnightblue, style=solid, pos="s,385,76 377,72 347,58 298,36 273,24"];
+	Node17 -> Node16 [dir=back, color=orange, style=dashed, label="< int >", pos="s,402,144 402,135 402,121 402,103 402,92", lp="424,118"];
+	Node18 -> Node9 [dir=back, color=darkorchid3, style=dashed, label=m_usedClass, pos="s,458,78 450,75 423,67 381,53 344,42 324,35 301,28 283,24", lp="436,50"];
+}

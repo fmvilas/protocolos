@@ -1,0 +1,10 @@
+digraph G {
+	node [label="\N", fontname="FreeSans.ttf", fontsize=10, shape=record];
+	edge [fontname="FreeSans.ttf", fontsize=10, labelfontname="FreeSans.ttf", labelfontsize=10];
+	graph [bb="0,0,178,100"];
+	Node1 [label=PacketDriver1, height="0.22", width="1.08", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="75,16", rects="36,8,114,24"];
+	Node2 [label=_PACKET, height="0.22", width="0.89", color=black, fillcolor=white, style=filled, URL="$struct___p_a_c_k_e_t.html", tooltip="Structure that contains a group of packets coming from the driver.", pos="32,84", rects="0,76,65,92"];
+	Node3 [label=_ADAPTER, height="0.22", width="1.03", color=black, fillcolor=white, style=filled, URL="$struct___a_d_a_p_t_e_r.html", tooltip="Describes a network adapter.", pos="119,84", rects="82,76,157,92"];
+	Node2 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=Packet, pos="s,36,76 40,68 44,60 49,50 55,42 59,36 64,29 68,24", lp="76,50"];
+	Node3 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=lpAdapter, pos="s,117,76 114,68 111,59 106,49 101,42 96,35 90,29 85,24", lp="139,50"];
+}

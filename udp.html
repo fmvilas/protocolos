@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Language" content="cs">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta name="description" content="...">
+<meta name="keywords" content="...">
+<meta name="robots" content="index,follow,all">
+  <meta name="author" content="Francisco Méndez Vilas">
+  <title>Protocolos de comunicaci&oacute;n</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen, projection">
+</head>
+<body>
+<div id="stranka">
+
+<h1>
+<span>Protocolos de comunicaci&oacute;n</span>
+</h1>
+
+<menu>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="ip.html">IP</a></li>
+<li><a href="arp.html">ARP</a></li>
+<li><a href="icmp.html">ICMP</a></li>
+<li><a href="udp.html" class="menuactivo">UDP</a></li>
+<li><a href="programador/index.html">Programador</a></li>
+</menu>
+
+<div id="border">
+
+<div id="obsah">
+
+
+<h2>User Datagram Protocol</h2>
+<p>Esta es la cuarta opción del menú (Protocolo UDP). Desde aquí podremos enviar paquetes UDP a través de un número de puerto especificado (por defecto ECHO = 8 para evitar conflictos con los cortafuegos) directamente al destino, al router,  o al destino a través del router. Al igual que en ICMP, si en el momento de enviar el datagrama UDP no conocemos las direcciones Ethernet necesarias, el programa automáticamente enviará una petición ARP y, seguidamente, cuando reciba la respuesta ARP, enviará el datagrama UDP. El número de puerto donde enviar el datagrama UDP se puede cambiar mediante la opción 4 y, si en algún momento necesitas información sobre las direcciones IP y Ethernet local, destino y del router, puedes visualizarlas mediante la opción 5.</p><p>Para más información sobre el protocolo UDP puedes consultar el RFC 768 en <a href="http://tools.ietf.org/html/rfc768" target="_blank">inglés</a> o <a href="http://www.rfc-es.org/rfc/rfc0768-es.txt" target="_blank">español</a>.</p><br /><br /><center><img src="images/udp.jpg"/><br /><br /><img src="images/puertoudp.jpg"/></center>
+<br /><br />
+</div>
+
+</div>
+
+<div id="paticka">
+<p id="pravo">Francisco M&eacute;ndez Vilas - Junio 2010</p>
+</div>
+
+</div>
+</body>
+</html>

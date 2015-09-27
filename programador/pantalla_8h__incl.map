@@ -1,0 +1,10 @@
+digraph G {
+	node [label="\N", fontname="FreeSans.ttf", fontsize=10, shape=record];
+	edge [fontname="FreeSans.ttf", fontsize=10, labelfontname="FreeSans.ttf", labelfontsize=10];
+	graph [bb="0,0,132,84"];
+	Node1 [label="Source/pantalla.h", height="0.22", width="1.28", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="68,68", rects="22,60,115,76"];
+	Node2 [label="windows.h", height="0.22", width="0.86", color=grey75, fillcolor=white, style=filled, pos="31,16", rects="0,8,62,24"];
+	Node3 [label="process.h", height="0.22", width="0.72", color=grey75, fillcolor=white, style=filled, pos="106,16", rects="80,8,133,24"];
+	Node1 -> Node2 [color=midnightblue, style=solid, pos="e,37,24 62,60 57,52 49,41 42,32"];
+	Node1 -> Node3 [color=midnightblue, style=solid, pos="e,100,24 74,60 79,52 88,41 95,32"];
+}

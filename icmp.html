@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Language" content="cs">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta name="description" content="...">
+<meta name="keywords" content="...">
+<meta name="robots" content="index,follow,all">
+  <meta name="author" content="Francisco Méndez Vilas">
+  <title>Protocolos de comunicaci&oacute;n</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen, projection">
+</head>
+<body>
+<div id="stranka">
+
+<h1>
+<span>Protocolos de comunicaci&oacute;n</span>
+</h1>
+
+<menu>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="ip.html">IP</a></li>
+<li><a href="arp.html">ARP</a></li>
+<li><a href="icmp.html" class="menuactivo">ICMP</a></li>
+<li><a href="udp.html">UDP</a></li>
+<li><a href="programador/index.html">Programador</a></li>
+</menu>
+
+<div id="border">
+
+<div id="obsah">
+
+
+<h2>Internet Control Message Protocol</h2>
+<p>Esta es la tercera opción del menú (Protocolo ICMP). Desde aquí podremos enviar paquetes ICMP de ECO, MÁSCARA DE SUBRED Y MARCA DE TIEMPO (TIMESTAMP) directamente al destino, al router,  o al destino a través del router. Aunque se pueden mandar esos 3 tipos de mensajes ICMP, esta aplicación sólo contesta mensajes de ECO recibidos. Si en el momento de mandar el paquete ICMP no conocemos las direcciones Ethernet necesarias para su envío, el programa automáticamente mandará una solicitud ARP y seguidamente, cuando reciba la respuesta ARP, enviará el paquete ICMP.</p><p>Para más información sobre el protocolo ICMP puedes consultar el RFC 792 en <a href="http://tools.ietf.org/html/rfc792" target="_blank">inglés</a> o <a href="http://www.rfc-es.org/rfc/rfc0792-es.txt" target="_blank">español</a>.</p><br /><br /><center><img src="images/icmp.jpg"/></center>
+<br /><br />
+</div>
+
+</div>
+
+<div id="paticka">
+<p id="pravo">Francisco M&eacute;ndez Vilas - Junio 2010</p>
+</div>
+
+</div>
+</body>
+</html>
